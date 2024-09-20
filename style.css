@@ -1,0 +1,58 @@
+header{
+    background-color: orange;;
+    margin: 0px auto;
+    max-width:425px;
+    text-align: center;
+}
+.log{
+    width:100px;
+    height:100px;
+    float:left;
+}
+h2{
+    background-color: green;
+    max-width:425px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.nav{
+    background-color: red;
+}
+.nav a{
+    background-color: red;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 0px 16px;
+    font-size: 18px;
+}
+.nav a:hover{
+    background-color: black;
+}
+.nav a.active{
+    background-color: blue;
+}
+.slk{
+    background-color: orange;
+    max-width:425px;
+    margin: 0px auto;
+}
+table {
+    font-size: 24.3px;
+    background-color: red;
+    margin: 0px auto;
+}
+
+th{
+    background-color: orange;
+}
+tr:nth-child(even){
+    background-color: dodgerblue;
+}
+tr:nth-child(odd){
+    background-color: darkviolet;
+}
+footer{
+    background-color: red;
+}
